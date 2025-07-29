@@ -237,6 +237,8 @@
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.3px;
+  background: #f3f3f6;
+  color: var(--muted-text);
 }
 .badge-active {
   background: #eaf9f3;
@@ -245,6 +247,16 @@
 .badge-inactive {
   background: #f3f3f6;
   color: var(--muted-text);
+}
+/* Badge for Improntu type (blue) */
+.badge-info-blue {
+  background: #e9f3fe;
+  color: var(--info-blue);
+}
+/* Badge for Schedule type (accent pink) */
+.badge-accent {
+  background: #fceaf8;
+  color: var(--accent);
 }
 
 /* Actions */
