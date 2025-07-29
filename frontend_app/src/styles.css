@@ -1,3 +1,18 @@
+/* Theme and dashboard CSS variables */
+:root {
+  --brand-gradient-left: #f400be;
+  --brand-gradient-right: #3b82f6;
+  --primary-bg: #f6f8fa;
+  --card-bg: #fff;
+  --border-color: #ececec;
+  --primary-text: #1f2937;
+  --muted-text: #6b7280;
+  --accent: #f400be;
+  --info-blue: #3b82f6;
+  --success-green: #13c26b;
+  --danger-red: #e53838;
+}
+
 /* Global styles for minimalistic design */
 * {
   margin: 0;
@@ -7,6 +22,7 @@
 
 html, body {
   height: 100%;
-  background-color: #ffffff;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--primary-bg);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: var(--primary-text);
 }

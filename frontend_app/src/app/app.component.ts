@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { ProfileManagementComponent } from './profile-management.component';
 
+// PUBLIC_INTERFACE
 @Component({
   selector: 'app-root',
-  imports: [],
+  standalone: true,
+  imports: [ProfileManagementComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'frontend_app is being generated';
-}
+export class AppComponent {}
