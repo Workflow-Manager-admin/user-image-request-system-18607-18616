@@ -54,25 +54,60 @@ export class ProfileManagementComponent {
   /** Mock profile data for the table */
   profiles = [
     {
-      name: 'Jane Doe',
+      name: 'a',
       devices: 4,
       type: 'Impromptu',
       status: 'Active',
       created: '2024-07-29',
     },
     {
-      name: 'John Smith',
+      name: 'b',
       devices: 2,
       type: 'Schedule',
       status: 'Inactive',
       created: '2024-07-28',
     },
     {
-      name: 'Nova Templata',
-      devices: 6,
+      name: 'c',
+      devices: 3,
       type: 'Impromptu',
       status: 'Active',
       created: '2024-07-27',
+    },
+    {
+      name: 'd',
+      devices: 1,
+      type: 'Schedule',
+      status: 'Inactive',
+      created: '2024-07-25',
+    },
+    {
+      name: 'a',
+      devices: 5,
+      type: 'Impromptu',
+      status: 'Active',
+      created: '2024-07-24',
+    },
+    {
+      name: 'a',
+      devices: 6,
+      type: 'Schedule',
+      status: 'Inactive',
+      created: '2024-07-23',
+    },
+    {
+      name: 'b',
+      devices: 2,
+      type: 'Impromptu',
+      status: 'Active',
+      created: '2024-07-22',
+    },
+    {
+      name: 'c',
+      devices: 4,
+      type: 'Schedule',
+      status: 'Inactive',
+      created: '2024-07-21',
     }
   ];
 
