@@ -58,56 +58,48 @@ export class ProfileManagementComponent {
       devices: 4,
       type: 'Impromptu',
       status: 'Active',
-      created: '2024-07-29',
     },
     {
       name: 'profile b',
       devices: 2,
       type: 'Schedule',
       status: 'Inactive',
-      created: '2024-07-28',
     },
     {
       name: 'profile c',
       devices: 3,
       type: 'Impromptu',
       status: 'Active',
-      created: '2024-07-27',
     },
     {
       name: 'profile d',
       devices: 1,
       type: 'Schedule',
       status: 'Inactive',
-      created: '2024-07-25',
     },
     {
       name: 'profile a',
       devices: 5,
       type: 'Impromptu',
       status: 'Active',
-      created: '2024-07-24',
     },
     {
       name: 'profile a',
       devices: 6,
       type: 'Schedule',
       status: 'Inactive',
-      created: '2024-07-23',
     },
     {
       name: 'profile b',
       devices: 2,
       type: 'Impromptu',
       status: 'Active',
-      created: '2024-07-22',
     },
     {
       name: 'profile c',
       devices: 4,
       type: 'Schedule',
       status: 'Inactive',
-      created: '2024-07-21',
     }
   ];
 
